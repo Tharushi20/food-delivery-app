@@ -3,7 +3,8 @@ import './FoodDisplay.css'
 import { StoreContext } from '../../context/StoreContext'
 import FoodItem from '../FoodItem/FoodItem'
 
-function FoodDisplay({category}) {
+const FoodDisplay = ({category}) => {
+
 
     const {food_list} = useContext(StoreContext)
   return (
